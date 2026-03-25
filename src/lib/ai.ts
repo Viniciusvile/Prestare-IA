@@ -17,7 +17,7 @@ export interface HandbookContent {
   }[];
 }
 
-const API_KEY = "AIzaSyCZH1VJjOvYc0HgVWEKxspeWo8rdGrR7pc";
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
 // Model config
 const MODELS = ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-flash-latest"];
